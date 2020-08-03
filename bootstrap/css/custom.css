@@ -13,7 +13,7 @@
   color: #fff;
   padding: 4px;
 }
-
+/* Slides */
 h1#livros {
   background-color: #FFA500;
   color: #fff;
@@ -38,6 +38,12 @@ p#quadrinhos {
   background-color: #FFA500;
   color: #fff;
 }
-#menu {
-  background-color: #FFA500;
+/* menu */
+.bg-dark {
+  background-color: #FFA500 !important;
+}
+a.bg-dark:hover, a.bg-dark:focus,
+button.bg-dark:hover,
+button.bg-dark:focus {
+  background-color: #ffffff;
 }
