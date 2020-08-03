@@ -13,3 +13,31 @@
   color: #fff;
   padding: 4px;
 }
+
+h1#livros {
+  background-color: #FFA500;
+  color: #fff;
+}
+p#livros {
+  background-color: #FFA500;
+  color: #fff;
+}
+h1#audiolivros {
+  background-color: #FFA500;
+  color: #fff;
+}
+p#audiolivros {
+  background-color: #FFA500;
+  color: #fff;
+}
+h1#quadrinhos {
+  background-color: #FFA500;
+  color: #fff;
+}
+p#quadrinhos {
+  background-color: #FFA500;
+  color: #fff;
+}
+#menu {
+  background-color: #FFA500;
+}
