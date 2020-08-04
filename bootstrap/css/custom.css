@@ -1,3 +1,4 @@
+/* Tutulos */
 #livros a {
   background-color: #FFA500;
   color: #fff;
@@ -46,4 +47,8 @@ a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
   background-color: #ffffff;
+}
+/* Itens */
+.featurette-heading {
+  color: #FFA500;
 }
