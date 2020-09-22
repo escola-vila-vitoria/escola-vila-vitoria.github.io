@@ -14,6 +14,11 @@
   color: #fff;
   padding: 4px;
 }
+#outros a {
+  background-color: #FFA500;
+  color: #fff;
+  padding: 4px;
+}
 /* Slides */
 h1#livros {
   background-color: #FFA500;
@@ -36,6 +41,14 @@ h1#quadrinhos {
   color: #fff;
 }
 p#quadrinhos {
+  background-color: #FFA500;
+  color: #fff;
+}
+h1#outros {
+  background-color: #FFA500;
+  color: #fff;
+}
+p#outros {
   background-color: #FFA500;
   color: #fff;
 }
