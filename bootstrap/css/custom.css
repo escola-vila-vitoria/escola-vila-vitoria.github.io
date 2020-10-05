@@ -1,0 +1,67 @@
+/* Tutulos */
+#livros a {
+  background-color: #FFA500;
+  color: #fff;
+  padding: 4px;
+}
+#audiolivros a {
+  background-color: #FFA500;
+  color: #fff;
+  padding: 4px;
+}
+#quadrinhos a {
+  background-color: #FFA500;
+  color: #fff;
+  padding: 4px;
+}
+#outros a {
+  background-color: #FFA500;
+  color: #fff;
+  padding: 4px;
+}
+/* Slides */
+h1#livros {
+  background-color: #FFA500;
+  color: #fff;
+}
+p#livros {
+  background-color: #FFA500;
+  color: #fff;
+}
+h1#audiolivros {
+  background-color: #FFA500;
+  color: #fff;
+}
+p#audiolivros {
+  background-color: #FFA500;
+  color: #fff;
+}
+h1#quadrinhos {
+  background-color: #FFA500;
+  color: #fff;
+}
+p#quadrinhos {
+  background-color: #FFA500;
+  color: #fff;
+}
+h1#outros {
+  background-color: #FFA500;
+  color: #fff;
+}
+p#outros {
+  background-color: #FFA500;
+  color: #fff;
+}
+/* menu */
+.bg-dark {
+  background-color: #FFA500 !important;
+}
+a.bg-dark:hover, a.bg-dark:focus,
+button.bg-dark:hover,
+button.bg-dark:focus {
+  background-color: #ffffff;
+}
+/* Itens */
+.featurette-heading {
+  color: #FFA500;
+}
