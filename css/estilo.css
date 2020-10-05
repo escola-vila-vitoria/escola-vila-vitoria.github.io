@@ -1,0 +1,82 @@
+/* Geral */
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+/* Cabecalho */
+#cabecalho {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+#cabecalho a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+#cabecalho img {
+  height: 150px;
+}
+/* Menu*/
+#menu {
+  display: flex;
+}
+#menu li {
+  margin-right: 10px;
+  list-style: none;
+}
+#menu li a {
+  display: block;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #24537d;
+  padding: 10px;
+}
+#menu li a:hover {
+  background-color: #24537d;
+  color: #fff;
+}
+/* Itens */
+.item1 a,
+.item2 a,
+.item3 a,
+.item4 a {
+  background-color: #24537d;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 4px;
+  text-decoration: none;
+}
+.item1 p,
+.item2 p,
+.item3 p,
+.item4 p {
+  font-family: sans-serif;
+  color: #666;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 50px;
+  font-weight: 400;
+  color: #24537d;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  text-align: left;
+}
+#rodape {
+  background-color: #24537d;
+  color: #fff;
+}
