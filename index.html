@@ -1,235 +1,194 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="José Victor" />
-    <meta name="description" content="Biblioteca Virtual da Escola Estadual Vila Vitóra com links para acervos publicos e livros em dominio públicos">
-    <meta name="keywords" content="biblioteca, digital, acervo, dominio publico, escola" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/estilo.css" />
     <title>Escola Vila Vitória - Biblioteca Virtual</title>
-    <meta property="og:site_name" content="Escola Vila Vitoria - Biblioteca Virtual">
-    <meta property="og:title" content="Escola Vila Vitoria - Biblioteca Virtual" />
-    <meta property="og:description" content="Biblioteca Virtual da Escola Estadual Vila Vitóra com links para acervos publicos e livros em dominio públicos" />
-    <meta property="og:image" itemprop="image" content="img/logo.jpeg">
-    <meta property="og:type" content="website" />
-
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="bootstrap/css/carousel.css" />
-    <link rel="stylesheet" href="bootstrap/css/custom.css" />
-    <script src="bootstrap/js/jquery-3.5.1.slim.js"></script>
-    <script src="bootstrap/js/popper.js"></script>
-    <script src="bootstrap/js/bootstrap.js"></script>
   </head>
-
   <body>
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">Biblioteca Virtual</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#livros">Livros</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#audiolivros">Audiolivros</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#quadrinhos">Quadrinhos</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#outros">Outros</a>
-            </li>
-
+    <!-- Conteudo -->
+    <div id="conteudo">
+      <!-- Cabecalho -->
+      <header id="cabecalho">
+        <img src="img/logo.jpeg" alt="Brasão">
+        <a href="index.html">Biblioteca Virtual</a>
+        <!-- Menu -->
+        <nav>
+          <ul id="menu">
+            <li><a href="#livros">Livros</a></li>
+            <li><a href="#audiolivros">Audiolivros</a></li>
+            <li><a href="#quadrinhos">Quadrinhos</a></li>
+            <li><a href="#outros">Outros</a></li>
           </ul>
-        </div>
-      </nav>
-    </header>
+        </nav>
+      </header>
+      <!-- Livros -->
+      <section id="livros">
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#livros" data-slide-to="0" class="active"></li>
-            <li data-target="#audiolivros" data-slide-to="1"></li>
-            <li data-target="#quadrinhos" data-slide-to="2"></li>
-            <li data-target="#outros" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
+        <h2>Livros
+          <img src="img/brasil.png" alt="Em Português" title="Em Português" width="50">
+        </h2>
 
-            <div class="carousel-item active">
-              <img src="img/livros.png" alt="Livros">
-              <div class="container">
-                <div class="carousel-caption text-center">
-                  <a href="#livros">
-                    <h1 id="livros">Livros</h1>
-                  </a>
-                  <p id="livros">Livros em domínio publico em Português, Inglês e também em outros idiomas.</p>
-                </div>
-              </div>
-            </div>
+        <article class="item1">
+          <a href="http://www.dominiopublico.gov.br/pesquisa/PesquisaObraForm.jsp">Portal Domínio Público</a>
+          <p>Iniciativa do Ministério da Educação (MEC), foi lançado em 2004 e é uma das mais conhecidas bibliotecas virtuais do Brasil. Além de livros, também é possível ter acesso a outros materiais, como vídeos, fotografias e outras mídias.</p>
+        </article>
 
-            <div class="carousel-item">
-              <img src="img/audiolivros.png" alt="Audiolivros">
-              <div class="container">
-                <div class="carousel-caption text-center">
-                  <a href="#audiolivros">
-                    <h1 id="audiolivros">Audiolivros</h1>
-                  </a>
-                  <p id="audiolivros">Audiolivros em domínio público narrados por pessoas em diferentes idiomas.</p>
-                </div>
-              </div>
-            </div>
+        <article class="item1">
+          <a href="https://digital.bbm.usp.br/handle/bbm/1">BBM Digital</a>
+          <p>A BBM Digital, existe e disponibiliza mais de 3.000 títulos em acesso aberto. Essas obras são compostas por diversos autores famosos como por exemplo José de Alencar.</p>
+        </article>
 
-            <div class="carousel-item">
-              <img src="img/quadrinhos.png" alt="Quadrinhos">
-              <div class="container">
-                <div class="carousel-caption text-center">
-                  <a href="#quadrinhos">
-                    <h1 id="quadrinhos">Quadrinhos</h1>
-                  </a>
-                  <p id="quadrinhos">Revistas em quadrinhos (HQs) em dominio público.</p>
-                </div>
-              </div>
-            </div>
+        <article class="item1">
+          <a href="https://www.wdl.org/pt/search/?languages=por">Biblioteca Digital Mundial</a>
+          <p>A Biblioteca Digital Mundial disponibiliza na Internet, gratuitamente e em formato multilíngue, importantes fontes provenientes de países e culturas de todo o mundo. </p>
+        </article>
 
-            <div class="carousel-item">
-              <img src="img/outros.png" alt="Outros">
-              <div class="container">
-                <div class="carousel-caption text-center">
-                  <a href="#outros">
-                    <h1 id="outros">Outros</h1>
-                  </a>
-                  <p id="outros">Outros links relevantes.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-          </a>
-          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Próximo</span>
-          </a>
-        </div>
+        <article class="item1">
+          <a href="http://www.brasiliana.usp.br/">Brasiliana</a>
+          <p>O site da Universidade de São Paulo (USP) disponibiliza cerca de 3 mil livros para download de forma legal. Há livros raros e documentos históricos, manuscritos e imagens.</p>
+        </article>
 
-        <div class="container marketing">
+          <img src="img/eua.png" alt="Em Inglês" title="Em Inglês" width="50">
+
+        <article class="item1">
+          <a href="http://www.gutenberg.org/wiki/Main_Page">Project Gutenberg</a>
+          <p>Um projeto com mais de 60.000 livros em formato PDF, Kindle entre outros, além de livros em Inglês e Português o site também oferece livros em Alemão e Francês.</p>
+        </article>
+
+        <article class="item1">
+          <a href="https://manybooks.net/">ManyBooks</a>
+          <p>Um acervo com mais de 50.000 livros em dominio público.</p>
+        </article>
+
+        <article class="item1">
+          <a href="http://www.readprint.com/">Read Print</a>
+          <p>Essa espécie de livraria virtual oferece mais de 8 mil títulos em inglês para estudantes, professores e entusiastas de clássicos.</p>
+        </article>
+      </section>
+
+      <img id="foto1" src="img/livros.jpg" alt="Livros">
 
 
-          <div class="row featurette" id="livros">
-            <div class="col-md-7">
-              <h2 class="featurette-heading">Livros <img src="img/brasil.png" alt="Em Português" title="Em Português" width="50"></h2>
-              <a href="http://www.dominiopublico.gov.br/pesquisa/PesquisaObraForm.jsp">Portal Domínio Público</a>
-              <p>
-                Iniciativa do Ministério da Educação (MEC), foi lançado em 2004 e é uma das mais conhecidas bibliotecas virtuais do Brasil.
-                Além de livros, também é possível ter acesso a outros materiais, como vídeos, fotografias e outras mídias.
-              </p>
-              <a href="https://digital.bbm.usp.br/handle/bbm/1">BBM Digital</a>
-              <p>A BBM Digital, existe e disponibiliza mais de 3.000 títulos em acesso aberto. Essas obras são compostas por diversos autores famosos como por exemplo José de Alencar.</p>
+      <hr class="divisao">
 
-              <a href="https://www.wdl.org/pt/search/?languages=por">Biblioteca Digital Mundial</a>
-              <p>A Biblioteca Digital Mundial disponibiliza na Internet, gratuitamente e em formato multilíngue, importantes fontes provenientes de países e culturas de todo o mundo. </p>
+      <section id="audiolivros">
+        <h2>Audiolivros
+          <img src="img/brasil.png" alt="Em Português" title="Em Português" width="50">
+        </h2>
 
-              <a href="http://www.brasiliana.usp.br/">Brasiliana</a>
-              <p>O site da Universidade de São Paulo (USP) disponibiliza cerca de 3 mil livros para download de forma legal. Há livros raros e documentos históricos, manuscritos e imagens.</p>
+        <article class="item2">
+          <a href="https://www.tocalivros.com/audiobook/audiolivros-gratis">Toca Livros</a>
+          <p>Apesar exigir assinatura paga, o site disponibiliza opções gratuitas em português.</p>
+        </article>
 
-              <img src="img/eua.png" alt="Em Inglês" title="Em Inglês" width="50"><br><br>
-              <a href="http://www.gutenberg.org/wiki/Main_Page">Project Gutenberg</a>
-              <p>Um projeto com mais de 60.000 livros em formato PDF, Kindle entre outros, além de livros em Inglês e Português o site também oferece livros em Alemão e Francês.</p>
+        <article class="item2">
+          <a href="https://www.universidadefalada.com.br/audiolivros-gratis-audio-livro-gratuito.html">Universidade Falada</a>
+          <p>Assim como o Tocalivros, a plataforma dispõem de livros não pagos para leitura.</p>
+        </article>
 
-              <a href="https://manybooks.net/">ManyBooks</a>
-              <p>Um acervo com mais de 50.000 livros em dominio público.</p>
+        <img src="img/eua.png" alt="Em Inglês" title="Em Inglês" width="50">
 
-              <a href="http://www.readprint.com/">Read Print</a>
-              <p>Essa espécie de livraria virtual oferece mais de 8 mil títulos em inglês para estudantes, professores e entusiastas de clássicos.</p>
+        <article class="item2">
+          <a href="https://librivox.org/">LibriVox</a>
+          <p>Um rede volutária de pessoas que leem trechos e até mesmo livros inteiros em dominio publico em vários idiomas, incluindo Português e Inglês.</p>
+        </article>
 
-            </div>
-            <div class="col-md-5">
-              <img src="img/livros.jpg" alt="Livros ">
-            </div>
-          </div>
+        <article class="item2">
+          <a href="https://www.oreilly.com/openbook/">O'Reilly Open Books Project</a>
+          <p>Audiolivros em dominio público da editora O'Reilly focados em linguagens de programação e em sistemas operacionais.</p>
+        </article>
 
-          <hr class="featurette-divider">
+        <article class="item2">
+          <a href="http://www.freeclassicaudiobooks.com/">Free Classic Audio Books</a>
+          <p>Centenas de livros no formato MP3 ou M4B (formato para iPod).  Você pode encontrar obras de grandes nomes como Jane Austen, Virginia Wolf e James Joyce, entre outros.</p>
+        </article>
 
-          <div class="row featurette">
+        <article class="item2">
+          <a href="https://www.learnoutloud.com/Free-Audio-Video">LearnOutLoud.com</a>
+          <p>Conta com mais de cinco mil obras, com arquivos em áudio e materiais em vídeo.</p>
+        </article>
 
-            <div class="col-md-7 order-md-2" id="audiolivros">
-              <h2 class="featurette-heading">Audiolivros <img src="img/brasil.png" alt="Em Português" title="Em Português" width="50"></h2>
-              <a href="https://www.tocalivros.com/audiobook/audiolivros-gratis">Toca Livros</a>
-              <p>Apesar exigir assinatura paga, o site disponibiliza opções gratuitas em português.</p>
+        <article class="item2">
+          <a href="https://www.storynory.com/">Storynory</a>
+          <p>Contos de fadas, mitos e lendas de diferentes lugares do mundo ficam disponíveis em inglês.</p>
+        </article>
 
-              <a href="https://www.universidadefalada.com.br/audiolivros-gratis-audio-livro-gratuito.html">Universidade Falada</a>
-              <p>Assim como o Tocalivros, a plataforma dispõem de livros não pagos para leitura.</p>
+        <article class="item2">
+          <a href="https://etc.usf.edu/lit2go/">Lit2Go</a>
+          <p>O Lit2Go é uma coleção gratuita de obras em formato mp3. Muitas dos livros também podem ser conferidos em formato PDF e usados como material de apoio para leitura.</p>
+        </article>
+      </section>
 
-              <img src="img/eua.png" alt="Em Inglês" title="Em Inglês" width="50"><br><br>
-              <a href="https://librivox.org/">LibriVox</a>
-              <p>Um rede volutária de pessoas que leem trechos e até mesmo livros inteiros em dominio publico em vários idiomas, incluindo Português e Inglês.</p>
+      <img id="foto2" src="img/audiolivros.jpg" alt="Audiolivros">
 
-              <a href="https://www.oreilly.com/openbook/">O'Reilly Open Books Project</a>
-              <p>Audiolivros em dominio público da editora O'Reilly focados em linguagens de programação e em sistemas operacionais.</p>
+      <hr class="divisao">
 
-              <a href="http://www.freeclassicaudiobooks.com/">Free Classic Audio Books</a>
-              <p>Centenas de livros no formato MP3 ou M4B (formato para iPod).  Você pode encontrar obras de grandes nomes como Jane Austen, Virginia Wolf e James Joyce, entre outros.</p>
+      <section id="quadrinhos">
+        <h2>Quadrinhos
+          <img src="img/eua.png" alt="Em Inglês" title="Em Inglês" width="50">
+        </h2>
 
-              <a href="https://www.learnoutloud.com/Free-Audio-Video">LearnOutLoud.com</a>
-              <p>Conta com mais de cinco mil obras, com arquivos em áudio e materiais em vídeo.</p>
+        <article class="item3">
+          <a href="http://www.comixology.com/free-comics">ComiXology</a>
+          <p>ComiXology têm uma grande variedade de livros de quadrinhos gratuitamente para sua diversão! As seleções livres são atualizadas semanalmente.</p>
+        </article>
 
-              <a href="https://www.storynory.com/">Storynory</a>
-              <p>Contos de fadas, mitos e lendas de diferentes lugares do mundo ficam disponíveis em inglês.</p>
+        <article class="item3">
+          <a href="http://www.elfquest.com/gallery/OnlineComics3.html">ElfQuest.com</a>
+          <p>O site disponibiliza muitas séries de histórias em quadrinhos da década de 70.</p>
+        </article>
 
-              <a href="https://etc.usf.edu/lit2go/">Lit2Go</a>
-              <p>O Lit2Go é uma coleção gratuita de obras em formato mp3. Muitas dos livros também podem ser conferidos em formato PDF e usados como material de apoio para leitura.</p>
-            </div>
+        <article class="item3">
+          <a href="http://comicbookplus.com/">Comic Book Plus</a>
+          <p>Este site oferece quadrinhos da era de ouro dos gibis. Existe todo tipo de história para você baixar de graça.</p>
+        </article>
 
-            <div class="col-md-5 order-md-1">
-              <img src="img/audiolivros.jpeg" alt="Audiolivros" height="400">
-            </div>
-          </div>
 
-          <hr class="featurette-divider">
+      </section>
+      <img id="foto3" src="img/quadrinhos.png" alt="Quadrinhos">
 
-          <div class="row featurette" id="outros">
-            <div class="col-md-7">
-              <h2 class="featurette-heading">Outros <img src="img/brasil.png" alt="Em Português" title="Em Português" width="50"></h2>
 
-              <a href="https://translate.google.com/?hl=pt-BR">Google Tradutor</a>
-              <p>
-                O serviço gratuito do Google traduz instantaneamente palavras, frases e páginas da Web entre o inglês e mais de 100 outros idiomas.
-              </p>
-              <a href="https://pt.khanacademy.org/">Khan Academy</a>
-              <p>Oferece centenas de aulas gratis de conteudo que que vai desde o Ensino Fundamental ao Médio</p>
+      <section id="outros">
 
-              <a href="https://studio.code.org/courses">Code.org</a>
-              <p>Oferece cursos de lógica de programação para crianças e jovens.</p>
+        <h2>Outros <img src="img/brasil.png" alt="Em Português" title="Em Português" width="50"></h2>
 
-              <a href="https://pt.duolingo.com/">Duolingo</a>
-              <p>Uma plataforma de ensino de idiomas que compreende um site, aplicativos para diversas plataformas e também um exame de proficiência digital.</p>
+        <article class="item4">
+          <a href="https://translate.google.com/?hl=pt-BR">Google Tradutor</a>
+          <p>O serviço gratuito do Google traduz instantaneamente palavras, frases e páginas da Web entre o inglês e mais de 100 outros idiomas.</p>
+        </article>
 
-              <img src="img/eua.png" alt="Em Inglês" title="Em Inglês" width="50"><br><br>
-              <a href="https://www.ted.com/">TED</a>
-              <p>Uma série de conferências realizadas na Europa, na Ásia e nas Américas sem fins lucrativos, destinadas à disseminação de ideias.</p>
-            </div>
+        <article class="item4">
+          <a href="https://pt.khanacademy.org/">Khan Academy</a>
+          <p>Oferece centenas de aulas gratis de conteudo que que vai desde o Ensino Fundamental ao Médio</p>
+        </article>
 
-            <div class="col-md-5">
-              <img src="img/outros.jpg" alt="Outros">
-            </div>
-          </div>
+        <article class="item4">
+          <a href="https://studio.code.org/courses">Code.org</a>
+          <p>Oferece cursos de lógica de programação para crianças e jovens.</p>
+        </article>
 
-          <hr class="featurette-divider">
+        <article class="item4">
+          <a href="https://pt.duolingo.com/">Duolingo</a>
+          <p>Uma plataforma de ensino de idiomas que compreende um site, aplicativos para diversas plataformas e também um exame de proficiência digital.</p>
+        </article>
 
-        <footer class="container">
-          <p class="text-left">Nenhum direito reservado</p>
-          <p class="text-right"><a href="index.html"><img src="img/top-arrow.jpg" style="width:41px; height:43px" title="Voltar ao Topo" alt="Voltar ao Topo"></a></p>
-        </footer>
-      </body>
+        <img src="img/eua.png" alt="Em Inglês" title="Em Inglês" width="50">
+
+        <article class="item4">
+          <a href="https://www.ted.com/">TED</a>
+          <p>Uma série de conferências realizadas na Europa, na Ásia e nas Américas sem fins lucrativos, destinadas à disseminação de ideias.</p>
+        </article>
+      </section>
+
+      <img id="foto4" src="img/outros.png" alt="Outros" width="500px">
+
+      <!-- Rodapé -->
+      <footer id="rodape">
+        <p>Nenhum direito reservado.</p>
+      </footer>
+    </div>
+  </body>
 </html>
